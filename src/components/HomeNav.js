@@ -41,9 +41,9 @@ function HomeNav() {
             </li>
 
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                ✍️ Blog Tools
-              </a>
+               <span className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 ✍️ Blog Tools
+               </span>
               <ul className="dropdown-menu" style={{ backgroundColor: "#8aacc4ff" }}>
                 <li><Link className="dropdown-item" to="/blog-editor">📝 Write New Blog</Link></li>
                 <li><Link className="dropdown-item" to="/my-blogs">📚 My Blogs</Link></li>
