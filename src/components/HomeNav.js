@@ -64,7 +64,7 @@ function HomeNav() {
                 <input className="form-check-input" type="checkbox" value="" id="checkNativeSwitch" onClick={HandleOnClick} />
                 <label className="form-check-label" htmlFor="checkNativeSwitch">{DARK}</label>
             </div>
-            <input className="form-control me-2" type="search" placeholder="Search blogs..." aria-label="Search" />
+            <input id="searchInput" className="form-control me-2" type="search" placeholder="Search blogs..." aria-label="Search" />
             <button className="btn btn-outline-white" style={{ backgroundColor: "#8aacc4ff" }} type="submit">🔍</button>
           </form>
         </div>

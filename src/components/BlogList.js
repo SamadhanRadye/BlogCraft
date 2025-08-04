@@ -37,6 +37,7 @@ function BlogList() {
                 <div className="row mb-4">
                     <div className="col-md-8">
                         <Form.Control
+                            id="searchInput1"
                             type="text"
                             placeholder="🔍 Search blogs..."
                             value={searchTerm}
@@ -44,7 +45,7 @@ function BlogList() {
                         />
                     </div>
                     <div className="col-md-4">
-                        <Form.Select value={filterCategory} onChange={(e) => setFilterCategory(e.target.value)}>
+                        <Form.Select id="filterCategory" value={filterCategory} onChange={(e) => setFilterCategory(e.target.value)}>
                             <option value="All">All Categories</option>
                             <option value="Technology">Technology</option>
                             <option value="Lifestyle">Lifestyle</option>
